@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta name="color-scheme" content="light only">
+
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Barbearia El Hombre</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/5f4c89f9e9.js" crossorigin="anonymous" defer></script>
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body>
+  <!-- =====================================================
+       CABEÇALHO / NAVEGAÇÃO
+  ====================================================== -->
+  <header>
+    <div class="container nav">
+      <a href="#" class="logo">
+        <img src="imagens/logo2.png" alt="Logo Barbearia El Hombre" class="logo-img">
+        <span></span>
+      </a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home"       >Home</a></li>
+        <li><a href="#about"      >Sobre</a></li>
+        <li><a href="#services"   >Serviços</a></li>
+        <li><a href="#gallery"    >Planos</a></li>
+        <li><a href="#promo"      >Promoções</a></li>
+        <li><a href="#contact"    >Contato</a></li>
+      </ul>
+
+      <button class="hamburger" id="hamburger" aria-label="Abrir / fechar menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+  </header>
+
+    <!-- =====================================================
+        HERO
+    ===================================================== -->
+    <section class="hero" id="home">
+      <!-- Vídeo de fundo (desktop) -->
+      <video class="hero-video" autoplay muted loop=true playsinline>
+        <source src="videos/hero.mp4" type="video/mp4">
+        <!-- fallback para navegadores que não suportam vídeo -->
+      </video>
+
+      <!-- Overlay escuro -->
+      <div class="hero-overlay"></div>
+
+      <!-- Conteúdo -->
+      <div class="container hero-content">
+        <h1>Cortes por apenas R$49,90</h1>
+        <p>O melhor custo-benefício da Tijuca. Profissionais experientes, ambiente acolhedor e localização privilegiada.</p>
+        <a href="https://cashbarber.com.br/Elhombrebarbearia/inicio" class="btn outline" target="_blank">Agendar Horário</a>
+      </div>
+    </section>
+    <!-- =====================================================
+     SERVIÇOS
+====================================================== -->
+    <!-- =====================================================
+     SERVIÇOS  (com botão “Ver Todos”)
+====================================================== -->
+    <section id="services" class="bg-elhombre">
+      <div class="container">
+        <h2>Nossos Serviços</h2>
+
+        <div class="services-grid">
+          <!-- Serviço 1 -->
+          <article class="service">
+            <img src="imagens/about-preco.png" alt="Corte Masculino">
+            <div class="service-content">
+              <h3>Corte Masculino</h3>
+              <p>Personalizado para seu estilo. <strong>R$49,90 · 40&nbsp;min</strong></p>
+              <a href="https://cashbarber.com.br/Elhombrebarbearia/inicio"
+                class="btn outline" target="_blank">Agendar</a>
+            </div>
+          </article>
+
+          <!-- Serviço 2 -->
+          <article class="service">
+            <img src="imagens/cortebarba.PNG" alt="Barba Completa">
+            <div class="service-content">
+              <h3>Barba Completa</h3>
+              <p>Modelagem, hidratação e acabamento. <strong>R$39,90 · 30&nbsp;min</strong></p>
+              <a href="https://cashbarber.com.br/Elhombrebarbearia/inicio"
+                class="btn outline" target="_blank">Agendar</a>
+            </div>
+          </article>
+
+          <!-- Serviço 3 -->
+          <article class="service">
+            <img src="imagens/pezin.png" alt="Combo Corte + Barba">
+            <div class="service-content">
+              <h3>Combo Corte + Barba</h3>
+              <p>Pacote completo: Corte e Barba. <strong>R$89,90 · 60&nbsp;min</strong></p>
+              <a href="https://cashbarber.com.br/Elhombrebarbearia/inicio"
+                class="btn outline" target="_blank">Agendar</a>
+            </div>
+          </article>
+
+          <!-- Serviço 4 -->
+          <article class="service">
+            <img src="imagens/acabamento.png" alt="Acabamento">
+            <div class="service-content">
+              <h3>Acabamento</h3>
+              <p>Pezinho, nuca e laterais. <strong>R$25 · 20&nbsp;min</strong></p>
+              <a href="https://cashbarber.com.br/Elhombrebarbearia/inicio"
+                class="btn outline" target="_blank">Agendar</a>
+            </div>
+          </article>
+        </div>
+
+        <!-- BOTÃO “VER TODOS OS SERVIÇOS” -->
+        <div class="services-action">
+          <a href="servicos.html" class="btn primary" target="_blank">Ver Todos os Serviços</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <h2 class="section-title">Nossos Planos</h2>
+
+      <div class="plans-grid">
+        <!-- ===== PLANO 1 – MENSAL ===== -->
+        <article class="plan-card destaque recommended">
+          <!-- Ribbon adicionado -->
+          <div class="plan-ribbon" aria-label="Plano Ilimitado">ILIMITADO</div>
+
+          <header class="plan-head">
+            <h3>Plano Corte</h3>
+            <p class="plan-price"><span>R$</span>79,90</p>
+          </header>
+
+          <ul class="plan-features">
+            <li>Cortes ILIMITADOS</li>
+            <li>Lembrete automático por WhatsApp</li>
+            <li>Agendamento prioritário</li>
+            <li>10% de desconto em qualquer serviço ou produto</li>
+          </ul>
+
+          <div class="plan-cta">
+            <a href="https://cashbarber.com.br/Elhombrebarbearia/inicio"
+              target="_blank" rel="noopener noreferrer" class="plan-btn">
+              Assinar
+            </a>
+          </div>
+        </article>
+
+        <!-- ===== PLANO 2 – TRIMESTRAL ===== -->
+        <article class="plan-card">
+          <!-- Ribbon adicionado -->
+          <div class="plan-ribbon" aria-label="Plano Ilimitado">ILIMITADO</div>
+
+          <header class="plan-head">
+            <h3>Plano Barba</h3>
+            <p class="plan-price"><span>R$</span>99,90</p>
+          </header>
+
+          <ul class="plan-features">
+            <li>Barba ILIMITADA</li>
+            <li>Lembrete automático por WhatsApp</li>
+            <li>Agendamento prioritário</li>
+            <li>10% de desconto em qualquer serviço ou produto</li>
+          </ul>
+
+          <div class="plan-cta">
+            <a href="https://cashbarber.com.br/Elhombrebarbearia/inicio"
+              target="_blank" rel="noopener noreferrer" class="plan-btn">
+              Assinar
+            </a>
+          </div>
+        </article>
+
+        <!-- ===== PLANO 3 – VIP ILIMITADO ===== -->
+        <article class="plan-card premium">
+          <!-- Ribbon já existente -->
+          <div class="plan-ribbon" aria-label="Plano Ilimitado">ILIMITADO</div>
+
+          <header class="plan-head">
+            <h3>Plano Corte + Barba</h3>
+            <p class="plan-price"><span>R$</span>152,90</p>
+          </header>
+
+          <ul class="plan-features">
+            <li>Cortes e Barba ILIMITADOS</li>
+            <li>Lembrete automático por WhatsApp</li>
+            <li>Agendamento prioritário</li>
+            <li>10% de desconto em qualquer serviço ou produto</li>
+          </ul>
+
+          <div class="plan-cta">
+            <a href="https://cashbarber.com.br/Elhombrebarbearia/inicio"
+              target="_blank" rel="noopener noreferrer" class="plan-btn">
+              Assinar Agora
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- =====================================================
+        PROMOÇÕES
+    ====================================================== -->
+    <section id="promo" class="promo-section">
+      <div class="container">
+        <h2>Promoções Imperdíveis</h2>
+
+        <div class="promo-grid">
+          <div class="promo">
+            <h3>Primeira Visita – 10% OFF</h3>
+            <p>Seu primeiro corte por apenas R$40,50!</p>
+            <a href="https://cashbarber.com.br/Elhombrebarbearia/inicio" class="btn">Agendar com Desconto</a>
+          </div>
+
+          <div class="promo">
+            <h3>Traga um Amigo NOVO – 10% OFF</h3>
+            <p>Ambos recebem 10% de desconto.</p>
+            <a href="https://cashbarber.com.br/Elhombrebarbearia/inicio" class="btn">Agendar com Desconto</a>
+          </div>
+
+          <div class="promo">
+            <h3>Pacote Pai &amp; Filho – R$75</h3>
+            <p>Economize R$15 todos os sábados.</p>
+            <a href="https://cashbarber.com.br/Elhombrebarbearia/inicio" class="btn">Agendar com Desconto</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    
+    <!-- =========================================================
+     SEGUNDA GALERIA – “Momentos VIP”
+     ========================================================= -->
+    <!-- =========================================================
+     GALERIA – com divisor serrilhado na base
+     (classe extra zig-divider aplicada)
+     ========================================================= -->
+    <section id="vip-gallery" class="vip-gallery-section zig-divider">
+      <h2 class="section-title">Galeria</h2>
+
+      <div class="vip-gallery-grid">
+        <img src="imagens/EXTERIOR.png" alt="Cliente VIP no acabamento" />
+        <img src="imagens/fundo_teste.png"         alt="Detalhe da tesoura" />
+        <img src="imagens/pudim.png" alt="Brilho do spray fixador" />
+        <img src="imagens/ivan.png"  alt="Painel de produtos premium" />
+        <img src="imagens/urso.png"  alt="Painel de produtos premium" />
+        <img src="imagens/americano_desenho.PNG" alt="Close do logo no avental" />
+
+        <img src="imagens/social.PNG"           alt="Barbeiro conferindo resultado" />
+        <img src="imagens/java_galeria.png"              alt="Corte degradê finalizado" />
+        <img src="imagens/barba_elhombre.png"         alt="Painel de produtos premium" />
+
+        <img src="imagens/moica.PNG"        alt="Barbeiro sorrindo com cliente" />
+      </div>
+    </section>
+    <!-- =====================================================
+         SOBRE / DIFERENCIAIS
+    ====================================================== -->
+    <section id="about">
+      <div class="container">
+        <h2>Por que escolher a Barbearia El Hombre?</h2>
+
+        <div class="about-grid">
+          <div class="about-item price">
+            <i class="fas fa-tags"></i>
+            <h3>Preço Imbatível</h3>
+            <p>Cortes a partir de R$44,90, muito abaixo da média regional.</p>
+          </div>
+
+          <div class="about-item location">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Localização Estratégica</h3>
+            <p>A 3 minutos do metrô Saens Peña.</p>
+          </div>
+
+          <div class="about-item team">
+            <i class="fas fa-user-tie"></i>
+            <h3>Barbeiros Experientes</h3>
+            <p>Equipe qualificada, atualizada nas últimas tendências.</p>
+          </div>
+
+          <div class="about-item ambience">
+            <i class="fas fa-coffee"></i>
+            <h3>Ambiente Acolhedor</h3>
+            <p>Música boa, Wi-Fi e atendimento personalizado.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =====================================================
+        AVALIAÇÕES
+    ====================================================== -->
+    <section id="testimonials">
+      <div class="container">
+        <h2>AVALIAÇÕES</h2>
+        <div class="testimonial"><p>⭐⭐⭐⭐⭐(4.9)
+          <img src="imagens_depoimentos/google.png" alt="Carlos Silva"></p></div>
+        <div class="testimonial">
+          <img src="imagens_depoimentos/arthur.png" alt="Carlos Silva">
+          <p>“Uma coisa é verdade, antes de eu conhecer a el hombre eu andava desarrumado não ligava para como eu estava ou como eu vivia, após eu encontrar el hombre senti uma experiência na barbearia super receptiva, com trabalho excelente, mantendo sempre o foco nos clientes priorizando o conforto e o bem estar do cliente. Por mim essa barbearia é a melhor do Rio não tem igual, tendo planos super baratos e mantendo o corte e barba com um trabalho excelente. Barbearia el hombre 10/10”</p>
+          <h4>Arthur Braga</h4>
+        </div>
+
+        <div class="testimonial">
+          <img src="imagens_depoimentos/segundo.png" alt="Luciano Maleval">
+          <p>“Excelente ambiente, excelentes profissionais, dedicados e antenados com as novidades de cortes e barbas”</p>
+          <h4>Luciano Maleval</h4>
+        </div>
+
+        <div class="testimonial">
+          <img src="imagens_depoimentos/terceiro.png" alt="Igor Videres">
+          <p>“Ambiente bom e profissionais muito bons de corte!”</p>
+          <h4>Igor Videres</h4>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =====================================================
+         CONTATO
+    ====================================================== -->
+    <section id="contact">
+      <div class="container">
+        <h2>Entre em Contato</h2>
+
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h3>Endereço</h3>
+            <p>Rua General Roca 586, Tijuca, Rio de Janeiro</p>
+
+            <h3>Telefone</h3>
+            <p>(21) 972033272</p>
+
+
+            <h3>Horário</h3>
+            <p>Seg – Sex: 09h30 – 20h  |  Sáb: 09h30 – 18h <br>Dom: Fechado</p>
+          </div>
+
+          <div class="map-wrapper">
+            <iframe
+              title="Mapa – Barbearia El Hombre"
+              src="https://maps.google.com/maps?q=Rua%20General%20Roca%20586,%20Tijuca,%20Rio%20de%20Janeiro&t=&z=15&ie=UTF8&iwloc=&output=embed"
+              width="100%" height="250" style="border:0;border-radius:6px;" loading="lazy">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =====================================================
+       RODAPÉ
+  ====================================================== -->
+  <footer>
+    <p>© 2025 Barbearia El Hombre. Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- JavaScript (menu, animações, etc.) -->
+  <script src="script.js" defer></script>
+  <!-- Botão Flutuante WhatsApp -->
+  <!-- Botão Flutuante WhatsApp (com imagem) -->
+<a
+  href="https://api.whatsapp.com/send/?phone=5521972033272&text=Oi%2C+Gostaria+de+saber+mais+informa%C3%A7%C3%B5es%21&type=phone_number&app_absent=0"
+  class="whatsapp-fab"
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="Fale conosco no WhatsApp"
+>
+  <img
+    src="imagens/whatsapp.png"  
+    alt=""
+    class="wa-img"
+    loading="lazy"
+    decoding="async"
+  >
+</a>
+
+
+</body>
+</html>
