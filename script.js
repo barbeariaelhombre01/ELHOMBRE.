@@ -91,19 +91,47 @@ window.addEventListener('DOMContentLoaded', () => {
 ======================================================== */
   (function initRotatingPromo() {
 
-    // Dados dos planos (pode adicionar mais no array futuramente)
+    // Dados dos planos em loop, na ordem definida na seção de assinaturas
     const planos = [
       {
-        titulo: 'Cortes ILIMITADOS',
-        preco: 'R$79,90/mês',
-        descricao: 'Cortes ilimitados + agendamento prioritário',
+        titulo: 'Plano Corte | Seg a Sex',
+        preco: 'R$89,90/mês',
+        descricao: 'Cortes ilimitados de segunda a sexta',
         botao: 'ASSINAR',
         link: 'https://cashbarber.com.br/Elhombrebarbearia/inicio/plano'
       },
       {
-        titulo: 'Corte + Barba ILIMITADOS',
-        preco: 'R$152,90/mês',
-        descricao: 'Cortes e barba ilimitados + agendamento prioritário',
+        titulo: 'Plano Corte | Seg a Qua',
+        preco: 'R$69,90/mês',
+        descricao: 'Cortes ilimitados de segunda a quarta',
+        botao: 'ASSINAR',
+        link: 'https://cashbarber.com.br/Elhombrebarbearia/inicio/plano'
+      },
+      {
+        titulo: 'Plano Barba | Seg a Sex',
+        preco: 'R$89,90/mês',
+        descricao: 'Barba ilimitada de segunda a sexta',
+        botao: 'ASSINAR',
+        link: 'https://cashbarber.com.br/Elhombrebarbearia/inicio/plano'
+      },
+      {
+        titulo: 'Plano Barba | Seg a Qua',
+        preco: 'R$69,90/mês',
+        descricao: 'Barba ilimitada de segunda a quarta',
+        botao: 'ASSINAR',
+        link: 'https://cashbarber.com.br/Elhombrebarbearia/inicio/plano'
+      },
+      {
+        titulo: 'Plano Corte + Barba | Seg a Sex',
+        preco: 'R$169,90/mês',
+        descricao: 'Cortes e barba ilimitados de segunda a sexta',
+        botao: 'ASSINAR',
+        link: 'https://cashbarber.com.br/Elhombrebarbearia/inicio/plano'
+      },
+      {
+        titulo: 'Plano Corte + Barba | Seg a Qua',
+        preco: 'R$159,90/mês',
+        descricao: 'Cortes e barba ilimitados de segunda a quarta',
         botao: 'ASSINAR',
         link: 'https://cashbarber.com.br/Elhombrebarbearia/inicio/plano'
       }
