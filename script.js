@@ -95,35 +95,35 @@ window.addEventListener('DOMContentLoaded', () => {
     const planos = [
       {
         titulo: 'Plano Corte | Seg a Sex',
-        preco: 'R$89,90/mês',
+        preco: 'R$99,90/mês',
         descricao: 'Cortes ilimitados de segunda a sexta',
         botao: 'ASSINAR',
         link: 'https://cashbarber.com.br/Elhombrebarbearia/inicio/plano'
       },
       {
         titulo: 'Plano Corte | Seg a Qua',
-        preco: 'R$69,90/mês',
+        preco: 'R$79,90/mês',
         descricao: 'Cortes ilimitados de segunda a quarta',
         botao: 'ASSINAR',
         link: 'https://cashbarber.com.br/Elhombrebarbearia/inicio/plano'
       },
       {
         titulo: 'Plano Barba | Seg a Sex',
-        preco: 'R$89,90/mês',
+        preco: 'R$99,90/mês',
         descricao: 'Barba ilimitada de segunda a sexta',
         botao: 'ASSINAR',
         link: 'https://cashbarber.com.br/Elhombrebarbearia/inicio/plano'
       },
       {
         titulo: 'Plano Barba | Seg a Qua',
-        preco: 'R$69,90/mês',
+        preco: 'R$79,90/mês',
         descricao: 'Barba ilimitada de segunda a quarta',
         botao: 'ASSINAR',
         link: 'https://cashbarber.com.br/Elhombrebarbearia/inicio/plano'
       },
       {
         titulo: 'Plano Corte + Barba | Seg a Sex',
-        preco: 'R$169,90/mês',
+        preco: 'R$189,90/mês',
         descricao: 'Cortes e barba ilimitados de segunda a sexta',
         botao: 'ASSINAR',
         link: 'https://cashbarber.com.br/Elhombrebarbearia/inicio/plano'
